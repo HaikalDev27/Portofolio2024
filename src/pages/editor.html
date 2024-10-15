@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Haikaru Portofolio</title>
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="../style/style.css">
+    <!-- Font Awesome 5.15.4 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+<body class="editor">
+    <header class="header-container">
+        <nav>
+            <div class="content">
+                <div class="logo-editor"><a href="">Haikaru's 2024 Portofolio</a></div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="./">Programmer</a></li>
+                        <li><a href="./editor.html">Editor</a></li>
+                        <li><a href="./designer.html">Designer</a></li>
+                        <li><a href="#contact" class="dark-blue">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="content">
+            <article id="home">
+                <div class="content-description">
+                    <h1 class="title">Meet @haikaru_27</h1>
+                    <h3 class="title">as an editor</h3>
+                    <p>
+                        I began exploring the world of video editing at the age of 11, starting with creating animated intros using Kinemaster and progressing to mastering advanced techniques with applications like Alight Motion and CapCut. My skills include curve editing, keyframing, transitions, 3D tracking, VFX, GFX, and 3D motion. This experience has led me to win several competitions, including an educational video contest across Java. Additionally, I have served as the video editor for my school (SMP).
+                    </p>
+                </div>
+
+                <div class="content-image">
+                    <img src="../img/Editor/Editor-Profilel.png" alt="">
+                </div>
+            </article>
+
+            <article id="about">
+                <h1>About my skill</h1>
+                <div class="slider">
+                    <div class="slides">
+                        <input type="radio" name="radio-btn" id="radio0">
+                        <input type="radio" name="radio-btn" id="radio1">
+                        <input type="radio" name="radio-btn" id="radio2">
+                        <input type="radio" name="radio-btn" id="radio3">
+                        <input type="radio" name="radio-btn" id="radio4">
+
+                        <div class="slide first">
+                            <img src="../img/Editor/2.png">
+                        </div>
+                        <div class="slide">
+                            <img src="../img/Editor/3.png">
+                        </div>
+                        <div class="slide">
+                            <img src="../img/Editor/4.png">
+                        </div>
+                        <div class="slide">
+                            <img src="../img/Editor/5.png">
+                        </div>
+                        <div class="slide">
+                            <img src="../img/Editor/6.png">
+                        </div>
+
+                        <div class="nav-auto">
+                            <div class="auto-btn0"></div>
+                            <div class="auto-btn1"></div>
+                            <div class="auto-btn2"></div>
+                            <div class="auto-btn3"></div>
+                            <div class="auto-btn4"></div>
+                        </div>
+                    </div>
+                    <div class="nav-manual">
+                        <label for="radio0" class="manual-btn"></label>
+                        <label for="radio1" class="manual-btn"></label>
+                        <label for="radio2" class="manual-btn"></label>
+                        <label for="radio3" class="manual-btn"></label>
+                        <label for="radio4" class="manual-btn"></label>
+                    </div>
+                </div>
+            </article>
+
+            <article id="contact">
+                <div class="contact-us">
+                    <h1>Contact Us</h1>
+                    <form>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Your name here"><br>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Your email here"><br>
+
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" placeholder="Type here"></textarea><br>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </article>
+        </div>
+
+        <aside>
+            <div class="nav-aside">
+                <div class="switch-btn">
+                    <span>&#9776;</span>
+                </div>
+        
+                <h3>Navigation Section</h3>
+        
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>     
+        </aside>
+
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="foosec">
+                <a href="https://github.com/HaikalDev27"><h3>GitHub</h3></a>
+            </div>
+            <div class="foosec">
+                <a href=""><h3>Twitter</h3></a>                 
+            </div>
+            <div class="foosec">
+                <a href=""><h3>Discord</h3></a>             
+            </div>
+            <div class="foosec">
+                <a href="https://www.instagram.com/haikaru_27"><h3>Instagram</h3></a>               
+            </div>
+        </div>
+
+        <div id="copyright">
+             &copy; 2024 <b>@haikaru_27</b> All Right Reserved.
+         </div>
+    </footer>
+
+    <script src="../comp/editorMech.js"></script>
+</body>
+</html>
