@@ -578,3 +578,9 @@ p{
         width: 80%;
     }
 }
+
+@media screen and (max-width: 480px){
+    #home img{
+        width: 80%;
+    }
+}
