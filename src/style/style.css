@@ -581,9 +581,12 @@ p{
 
 @media screen and (max-width: 500px){
     article#home .content-image{
-        width: 100px;
         margin: 0 auto;
         margin-left: 50%;
+    }
+
+    article#home .content-image img{
+        width: 70%;
     }
 
     .contact-button{
