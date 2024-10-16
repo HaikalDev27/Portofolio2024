@@ -581,7 +581,7 @@ p{
 
 @media screen and (max-width: 500px){
     article#home .content-image img{
-        width: 50%;
+        width: 100%;
         margin: 0 auto;
         margin-left: 50%;
     }
