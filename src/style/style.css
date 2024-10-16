@@ -582,7 +582,7 @@ p{
 @media screen and (max-width: 500px){
     article#home .content-image{
         width: 70%;
-        left: 50%;
+        left: 75%;
     }
 
     .contact-button{
